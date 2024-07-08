@@ -1,5 +1,7 @@
 # Neurox Call Agent
 
+![alt text](images/interface.png)
+
 This project integrates Twilio and ElevenLabs to create an application that can initiate phone calls and speak custom messages using AI-generated voices.
 
 ## Features
@@ -49,16 +51,16 @@ Before you begin, ensure you have met the following requirements:
 
 ## Usage
 
-1. Start the server:
-
-   ```
-   npm run dev
-   ```
-
-2. In a separate terminal, start ngrok to expose your local server:
+1. Start ngrok to expose your local server:
 
    ```
    ngrok http 3001
+   ```
+
+2. In a separate terminal, start the server:
+
+   ```
+   npm run dev
    ```
 
 3. **Important:** Each time you start ngrok, it generates a new URL. You need to:
@@ -90,7 +92,7 @@ Before you begin, ensure you have met the following requirements:
 
 ## Troubleshooting
 
-- Ensure all environment variables are correctly set
+- Ensure all environment variables are correctly set BEFORE running application.
 - Check Twilio console for call logs and error messages
 - Verify that your ngrok tunnel is active and the URL is up-to-date in both the `.env` file and Twilio console
 - If calls are not connecting or you're not hearing the message, double-check that you've updated both the `.env` file and the Twilio webhook URL with the latest ngrok URL
