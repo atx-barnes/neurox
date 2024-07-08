@@ -42,6 +42,7 @@ Before you begin, ensure you have met the following requirements:
    SERVER_DOMAIN=your-ngrok-url
    PORT=3001
    ELEVENLABS_API_KEY=your-elevenlabs-api-key
+   ELEVENLABS_VOICE_ID=your-elevenlabs-voice-id
    TWILIO_AUTH_TOKEN=your-twilio-auth-token
    TWILIO_ACCOUNT_SID=your-twilio-account-sid
    TWILIO_PHONE_NUMBER=your-twilio-phone-number
