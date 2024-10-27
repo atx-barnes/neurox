@@ -26,7 +26,7 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository:
 
    ```
-   git clone https://your-repository-url.git
+   git clone https://github.com/atx-barnes/neurox.git
    cd neurox
    ```
 
